@@ -6,7 +6,7 @@ for (let i = 0; i < str.length; i++) {
     break;
   }
 }
-if (flag) {
+if (!flag) {
   console.log("not palindrome");
 } else {
   console.log("it is a palindrome");
